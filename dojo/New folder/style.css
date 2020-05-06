@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#termsandcond{
+    width: 100%;
+    height: 300px;
+    background-image: url(lapyimg.jpg);
+    background-size: cover;
+   background-position: bottom;
+   position: relative;
+}
+
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.473);
+}
+
+#termsandcond #overlay h1{
+    color: white;
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 700;
+    word-spacing: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+#termsandcond #light{
+    font-weight: 300;
+}
+
+#discleamer{
+    width: 100%;
+    height: 310px;
+    background-color: rgb(236, 82, 82);
+    position: relative;
+}
+
+#discleamer p{
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(243, 243, 243);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    line-height: 25px;
+    
+}
+
+#discleamer #bold{
+    font-weight: 600;
+    font-style: normal;
+}
+
+#quatation{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 60px;
+}
+
+#quatation h2{
+    font-size: 30px;
+    font-weight: 500;
+    width: 55%;
+}
+
+#quatation h5{
+    font-weight: 500;
+    width: 55%;
+    font-size: 16px;
+    line-height: 20px;
+}
